@@ -1,0 +1,19 @@
+{
+  "name": "cli-application",
+  "version": "1.0.0",
+  "description": "CLI application",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ramona Coblisan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
